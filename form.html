@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+ <style>
+     .container{
+         background-color: #8080801f;
+         width: 700px;
+         height: 500px;
+         margin: auto;
+     }
+     .fs{
+         padding: 10px;
+         margin-top: 50px;
+         margin-left: 50px;
+         width: 400px;
+         border: 2px solid grey;
+         border-radius: 3px;
+     }
+
+     input[type=text]:focus {
+     background-color: rgb(173, 219, 230);
+}
+
+     .ls{
+        padding: 10px;
+         margin-top: 20px;
+         margin-left: 50px;
+         width: 400px;
+         border: 2px solid grey;
+         border-radius: 3px;
+     }
+     .lv{
+         font-size: medium;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-left: 40px;
+     }
+
+     .lb{
+         font-size: medium;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-left: 40px;
+     }
+     .c{
+        
+        font-size: medium;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-left: 40px;
+         
+     }
+        
+     #mahbub{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: -78px;
+        height: 38px;
+        border: 2px solid grey;
+        border-radius: 3px;
+    }
+     .aria{
+        border-radius: 3px;
+        padding: 9px;
+        border: 2px solid gray;
+        width: 108px;
+    }
+
+    .aria:hover{
+        width:218px ;
+        transition: width 0.4s ease-in-out;
+    }
+     
+     .span{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 200px;
+            margin-left: 38px;
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        
+        .sub{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 200px;
+            margin-left: 38px;
+            margin-top: 25px;
+            
+        }
+        #ta{
+            margin-left: 163px;
+            margin-top: -13px;
+            border: 2px solid gray;
+            width: 421px;
+            height: 146px;
+        }
+
+        button{
+            padding: 8px;
+            height: 41px;
+            width: 104px;
+            background-color: #0bec0bad;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 486px;
+            margin-top: 27px;
+        }
+
+        button:focus{
+            background-color: #0bec0b;
+        }
+
+        a{
+            font-size: 20px;
+            padding: 10px;
+
+        }
+        a:hover{
+            color: royalblue;
+        }
+        a:focus{
+            background-color: white;
+        }
+        p::first-letter{
+           color: red;
+           font-size: 20px;
+        }
+        p::first-line{
+            background-color: royalblue;
+            
+        }
+
+        p::selection{
+            color: royalblue;
+
+        }
+        p::after{
+            
+        }
+ </style>
+<body>
+    <div class="container">
+        <form action="">
+            <label class="lv">Firstname</label>
+            <input type="text" placeholder="Your name.." class="fs">
+            <label for="lastname" class="lb">Lastname</label>
+            <input type="text" placeholder="Your lastname" class="ls">
+        <div class="span">
+            <span>Country</span>
+        </div>
+            <select name="text" id="mahbub">
+                <option value="name">Select</option>
+                <option value="name">Bangladesh</option>
+                <option value="name">Canada</option>
+                <option value="name">Soudia Arbia</option>
+                <option value="name">India</option>
+                <option value="name">Nepal</option>
+            </select>
+            <input type="search" class="aria" placeholder="search your country..">
+            <div class="sub">
+                <span>Subject</span>
+            </div>
+            <textarea name="textarea" id="ta" cols="30" rows="10" placeholder="Write something"></textarea>
+        </form>
+
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+    <a href="#">Facebook</a>
+    <a href="#">Google</a>
+    <p>Assalamu-alaikum,With a heavy heart, I am writing this latter to inform you that I am resigning from the job post of a delivery agent from your eCourier Limited. The effective date of my resignation is  June 2021.Since my family relocating to Tangail, I have no option but to resign from the job post</p>
+</body>
+</html>
